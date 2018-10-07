@@ -10,8 +10,8 @@ function deleteFromObjectByKey(object, key) {
   return delete object.key
 }
 function destructivelyDeleteFromObjectByKey(object, key) {
-object['key']
-return delete object['key']
+object[key]
+return delete object[key]
 return object
  
   
